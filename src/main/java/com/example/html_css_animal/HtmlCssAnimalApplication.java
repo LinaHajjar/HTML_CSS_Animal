@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HtmlCssAnimalApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HtmlCssAnimalApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(HtmlCssAnimalApplication.class, args);
+    }
 
 }

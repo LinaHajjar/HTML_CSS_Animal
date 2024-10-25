@@ -1,0 +1,138 @@
+/*general for all the pages: */
+body{
+    font-family: Arial;
+    margin: 20px;
+    padding: 0; /*ensuring no padding in the body*/
+}
+
+.animal-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.animal-list li{
+    margin: 20px;
+}
+
+.animal-list img{
+    width: 200px; /* Set all images to the same width */
+    height: 200px; /* Set all images to the same height */
+    object-fit: cover;
+    cursor: pointer; /* Change cursor to pointer when hovering */
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: blue;
+    margin-bottom: 20px; /*adds space below the title*/
+    margin-top: 0; /*ensure no extra space above the title*/
+}
+
+ul{
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove extra padding */
+    text-align: center; /* Center the list items */
+    display: flex;
+    justify-content: space-around; /*Distribute the images evenly*/
+}
+
+li{
+    margin: 20px; /*add space around each image*/
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2em;
+}
+
+a:hover{
+    color: darkblue;
+}
+
+img {
+    cursor: pointer; /* Change cursor to a pointer when hovering over images */
+}
+
+ul li img { /* Style for images */
+    transition: transform 0.3s ease; /* Smooth transition for the image effect */
+}
+
+ul li img:hover { /* When the user hovers over the image */
+    transform: scale(1.2); /* Enlarge the image by 20% */
+}
+
+ul li img:active { /* When the user clicks on the image */
+    transform: scale(1.3); /* Enlarge the image by 30% when clicked */
+}
+
+
+/*Styling for the lion page:*/
+body.lion-page{
+    background-color: sandybrown;
+    color: white;
+}
+body.lion-page img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Styling for the panda page:*/
+body.panda-page{
+    background-color: whitesmoke;
+    color: white;
+}
+body.panda-page img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+body.panda-page p {
+    color: black;
+}
+
+/*Styling for the tiger page:*/
+body.tiger-page{
+    background-color: burlywood;
+    color: white;
+}
+body.tiger-page img{
+    width: 300px;
+    height: auto;
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+/*Styling for the zebra page:*/
+body.zebra-page{
+    background-color: darkgray;
+    color: white;
+}
+body.zebra-page img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the back link to align to the right */
+.back-link {
+    text-align: right;
+    margin-top: 20px; /* Adds some space above the link */
+}
+
+.back-link a {
+    color: darkblue; /* Optional: style the link */
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
